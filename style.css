@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit';
+    font-size: 16px;
+}
+
+.recipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.recipe-container {
+    background-color: hsl(0, 0%, 100%);
+    width: 670px;
+    padding: 50px;
+    border-radius: 25px;
+}
+.recipe img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+
+}
+
+.recipe-container h1 {
+    font-family: "Young Serif";
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+p{
+    font-size: 16;
+    font-family: "Outfit";
+    font-weight: 300;
+}
+
+.recipe-container > p{
+    margin-bottom: 40px;
+}
+
+li {
+    font-size: 16;
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.prep-time li{
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.prep-time li::marker{
+    color: hsl(332, 51%, 32%);
+    
+}
+
+.prep-time h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-family: 'Outfit';
+}
+
+.prep-time span{
+    font-weight: bold;
+}
+
+
+
+.ingredients {
+    align-items: left;
+}
+
+.ingredients li {
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.instructions li{
+    font-weight: light;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    
+}
+
+.instructions span{
+    font-weight: bold;
+
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+
+.nutrition p{
+    font-weight: light;
+    padding-bottom: 20px;
+
+}
+
+.nutrition-table tr{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+
+.nutrition-table td{
+    padding-bottom: 10px;
+}
+
+
+.table_value {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
